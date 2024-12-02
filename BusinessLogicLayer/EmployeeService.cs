@@ -43,7 +43,7 @@ namespace BusinessLogicLayer
         {
             await CheckPositionCount();
             //Writing logic
-            if (employee.Salary <= 100000 && totalSalaries < 1000000)
+            if (employee.Salary <= 10000 && totalSalaries < 1000000)
 
             {
                 if ((employee.Position == "HR" && totalHrCount < 1) ||
